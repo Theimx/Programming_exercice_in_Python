@@ -53,3 +53,105 @@ def exo8(L1,L2):
     counter = 0
     return low
 print(exo8(datatest,datatoast))
+
+les listes : partie 3
+Exercice 1 : Ecrire une fonction, qui à partir d'une liste de nombres entiers, détermine le nombre maximum d’occurrences consécutives strictement supérieures à 10. Proposer deux versions de ce programme l'une avec une gestion des index et une autre sans.
+
+def exercice1_version_avec(L) :
+    xF = 0
+    xMax = 0
+    for i in range(len(L)) :
+        if L[i] > 10:
+            xMax += 1
+        else :
+            if xMax > xF:
+                xF = xMax
+            xMax = 0
+    return xF
+#OK
+def exercice1_version_sans(L) :
+    xF = 0
+    xMax = 0
+    for i in L:
+        if i > 10:
+            xMax += 1
+        else :
+            if xMax > xF:
+                xF = xMax
+            xMax = 0
+    return xF
+#OK
+Exercice 2 : Ecrire une fonction qui à partir d'une liste de nombres entiers, détermine l'écart maximum entre deux valeurs consécutives. Proposer deux versions de ce programme l'une avec une gestion des index et une autre sans.
+
+def exercice2_avec(L) :
+        avancement = 0
+    for i in range(len(L)-1):
+        if abs(L[i+1] - L[i]) > avancement:
+            avancement = abs(L[i+1] - L[i])
+    return avancement
+#OK
+def exercice2_sans(L) :
+    aac = 0
+    furui = L[0]
+    for i in L:
+        if abs(i - furui) > aac:
+            aac = abs(i - furui)
+        furui = i
+    return aac
+#OK
+Exercice 3 : Ecrire une fonction, qui à partir d'une liste de nombres entiers, décale les éléments de cette liste d'un élément vers la droite (décalage circulaire, le dernier élément se retrouve alors en premier)
+
+def exercice3(L) :
+    last = L[-1]
+    for i in range(len(L)- 1, 0, -1):
+        L[i] = L[i-1]
+    L[0] = last
+    return L
+#OK    
+Exercice 4 : Ecrire une fonction, qui à partir d'une liste de nombres entiers, décale les éléments de cette liste d'un élément vers la gauche (décalage circulaire, le premier élément se retrouve alors en dernier)
+
+def exercice4(L) :
+    furui = L[0]
+    for i in range(1, len(L)):
+        L[i - 1] = L[i]
+    L[-1] = furui
+    return L
+#OK
+Exercice 5 : Ecrire une fonction, qui à partir d'une liste de nombres entiers d'une valeur x et d'un index i, insére la valeur x à l'index i sans utiliser la méthode insert().
+
+def exercice5(L, x, i) :
+    L.append(0)
+    for j in range(len(L)-1, i, -1):
+        L[j] = L[j - 1]
+        print(L)
+    L[i] = x
+    return L
+#OK
+Exercice 6 : Ecrire une fonction, qui à partir d'une liste de nombres entiers, détermine si la liste est croissante. La fonction retourne un booléen.
+
+def exercice6(L) :
+    for i in range(len(L) - 1):
+        if L[i+1] - L[i] < 0:
+            return False
+    return True
+#OK
+Exercice 7 : Ecrire une fonction, qui à partir d'une liste de nombres entiers, détermine la plus longue succession ininterrompue de valeurs rangées dans l’ordre croissant.
+
+def exercice7(L) :
+    streak = 0
+    mStreak = 0
+    print(len(L))
+    for i in range(len(L)-1):
+        print(i)
+        if L[i+1] - L[i] == 1:
+            mStreak += 1
+        if L[i+1] - L[i] != 1 or i == len(L) -2 :
+            if mStreak > streak:
+                streak = mStreak
+            mStreak = 0
+    return streak
+#OK
+Exercice 8 : Ecrire une fonction, qui à partir de deux listes croissantes de taille quelconque, construit une liste croissante.
+
+def exercice8(L1, L2) :
+... (59 lignes restantes)
