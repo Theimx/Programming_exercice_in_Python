@@ -15,22 +15,29 @@ def exercice1(L): #exercice valider
     best_score = 0
     current_best_score = 0
 
-    for i in range(len(L)+1):
-        if i >= 10: 
+    for i in range(len(L)):
+        if i > 10: 
             current_best_score += 1
-        
+
         if current_best_score >= best_score:
-            best_score = current_best_score
-        
-    current_best_score = 0
+            best_score = current_best_score     
+
     return best_score
 
-num = [1,2,3,4,5,6,7,8,9,10,11,12,13,14]
+num = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,3,10,11,12,12,12,18]
+num2 = [4,5,7]
 print(exercice1(num))
+print(exercice1(num2))
 
 #Exercice 2 : Ecrire une fonction qui à partir d'une liste de nombres entiers, 
 #détermine l'écart maximum entre deux valeurs consécutives. Proposer deux versions de ce programme 
 #l'une avec une gestion des index et une autre sans.
+
+def exercice2(L):
+    ecarts = 0
+    max_ecarts = 0
+
+    return max_ecarts
 
 #Exercice 3 : Ecrire une fonction, qui à partir d'une liste de nombres entiers,
 #décale les éléments de cette liste d'un élément vers la droite (décalage circulaire, 
