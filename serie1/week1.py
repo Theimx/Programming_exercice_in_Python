@@ -11,22 +11,23 @@ def prtlist(L):
 #détermine le nombre maximum d’occurrences consécutives strictement supérieures à 10. 
 #Proposer deux versions de ce programme l'une avec une gestion des index et une autre sans.
 
-def exercice1(L):
+def exercice1(L): #exercice valider
     best_score = 0
     current_best_score = 0
 
-    for i in L:
-        if i > 10 :
+    for i in range(len(L)+1):
+        if i >= 10: 
             current_best_score += 1
-        else : 
-            if current_best_score > best_score:
-                best_score = current_best_score
-    
+        
+        if current_best_score >= best_score:
+            best_score = current_best_score
+        
+    current_best_score = 0
     return best_score
 
-num = [1,2,3,4,5,6,7,8,9,10,11,12]
+num = [1,2,3,4,5,6,7,8,9,10,11,12,13,14]
 print(exercice1(num))
-print(prtlist(num))
+
 #Exercice 2 : Ecrire une fonction qui à partir d'une liste de nombres entiers, 
 #détermine l'écart maximum entre deux valeurs consécutives. Proposer deux versions de ce programme 
 #l'une avec une gestion des index et une autre sans.
