@@ -7,15 +7,17 @@ def exercice1(L,x): #valider
     result = 0
     for i in L:
         if i == x:
-            result = i
+            result = L.index(x)
 
-    if result != x:
+    if result != L.index(x):
         result = -1
     return result
-L = [1,3,4,5,2]
-print(exercice1(L,5))
+L = [1,2,3,4,5,2,10]
+print(exercice1(L,1))
 
-#Exercice 2 : Ecrire une fonction, qui à partir d'une liste L de nombres entiers et d'un entier x, détermine l’index de la dernière occurrence de x. Si la valeur x n’est pas présente dans la liste, la fonction retourne la valeur -1.
+#Exercice 2 : Ecrire une fonction, qui à partir d'une liste L de nombres entiers et d'un entier x, 
+#détermine l’index de la dernière occurrence de x. Si la valeur x n’est pas présente dans la liste, 
+#la fonction retourne la valeur -1.
 
 #Exercice 3 : Ecrire une fonction, qui à partir d'une liste L de nombres entiers et d'un entier x détermine, l’index de la dernière occurrence de x. Si la valeur x n’est pas présente dans la liste, la fonction retourne la valeur de la liste la plus proche de x par excès.
 
