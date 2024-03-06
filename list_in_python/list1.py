@@ -24,7 +24,11 @@ def exercice2(L, x) :#valider
             index = i
     return index
 
-#Exercice 3 : Ecrire une fonction, qui à partir d'une liste L de nombres entiers et d'un entier x détermine, l’index de la dernière occurrence de x. Si la valeur x n’est pas présente dans la liste, la fonction retourne la valeur de la liste la plus proche de x par excès.
+#Exercice 3 : Ecrire une fonction, qui à partir d'une liste L de nombres entiers et d'un entier x détermine,
+#l’index de la dernière occurrence de x. Si la valeur x n’est pas présente dans la liste, 
+#la fonction retourne la valeur de la liste la plus proche de x par excès.
+
+
 
 #Exercice 4 : Ecrire une fonction, qui à partir d'une liste L de nombres entiers et d'un entier x, détermine l’index de la dernière occurrence de x. Si la valeur x n’est pas présente dans la liste, la fonction retourne la valeur de la liste la plus proche de x par defaut.
 
