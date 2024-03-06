@@ -34,7 +34,8 @@ def exercice2(L, x) :#valider
 #détermine l’index de la dernière occurrence de x. Si la valeur x n’est pas présente dans la liste, 
 #la fonction retourne la valeur de la liste la plus proche de x par defaut.
 
-#Exercice 5 : Ecrire une fonction, qui à partir d'une liste L de nombres entiers et d'un entier x, vérifie que la valeur x apparait une et une seule fois dans la liste. La fonction retourne un booléen.
+#Exercice 5 : Ecrire une fonction, qui à partir d'une liste L de nombres entiers et d'un entier x, 
+#vérifie que la valeur x apparait une et une seule fois dans la liste. La fonction retourne un booléen.
 
 #Exercice 6 : Ecrire une fonction, qui à partir d'une liste L de nombres entiers, indique s'il existe deux éléments consécutifs dont la somme est égale à 10. La fonction renvoie un booléen.
 
