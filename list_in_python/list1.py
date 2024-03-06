@@ -37,7 +37,8 @@ def exercice2(L, x) :#valider
 #Exercice 5 : Ecrire une fonction, qui à partir d'une liste L de nombres entiers et d'un entier x, 
 #vérifie que la valeur x apparait une et une seule fois dans la liste. La fonction retourne un booléen.
 
-#Exercice 6 : Ecrire une fonction, qui à partir d'une liste L de nombres entiers, indique s'il existe deux éléments consécutifs dont la somme est égale à 10. La fonction renvoie un booléen.
+#Exercice 6 : Ecrire une fonction, qui à partir d'une liste L de nombres entiers, 
+#indique s'il existe deux éléments consécutifs dont la somme est égale à 10. La fonction renvoie un booléen.
 
 #Exercice 7 : Ecrire une fonction, qui à partir d'une liste L de nombres entiers relatifs, vérifie qu’en valeur absolue, la somme des éléments des éléments négatifs est inférieure à la somme des éléments positifs. La fonction renvoie True ou False.
 
