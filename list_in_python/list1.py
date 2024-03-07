@@ -44,7 +44,8 @@ def exercice2(L, x) :#valider
 #vérifie qu’en valeur absolue, la somme des éléments des éléments négatifs est inférieure à la somme des éléments positifs. 
 #La fonction renvoie True ou False.
 
-#Exercice 8 : Ecrire une fonction, qui à partir d'une liste L contenant un nombre pair de nombres entiers, permute les éléments deux à deux.
+#Exercice 8 : Ecrire une fonction, qui à partir d'une liste L contenant un nombre pair de nombres entiers, 
+#permute les éléments deux à deux.
 
 #Exercice 9 : Ecrire une fonction, qui à partir d'une liste L de nombres entiers, détermine les couples d'entiers consécutifs. Ces couples sont stockées sous la forme d’une liste de tuples. Si aucun couple n’est trouvé, la fonction retourne une liste vide.
 
