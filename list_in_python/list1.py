@@ -47,7 +47,9 @@ def exercice2(L, x) :#valider
 #Exercice 8 : Ecrire une fonction, qui à partir d'une liste L contenant un nombre pair de nombres entiers, 
 #permute les éléments deux à deux.
 
-#Exercice 9 : Ecrire une fonction, qui à partir d'une liste L de nombres entiers, détermine les couples d'entiers consécutifs. Ces couples sont stockées sous la forme d’une liste de tuples. Si aucun couple n’est trouvé, la fonction retourne une liste vide.
+#Exercice 9 : Ecrire une fonction, qui à partir d'une liste L de nombres entiers, 
+#détermine les couples d'entiers consécutifs. Ces couples sont stockées sous la forme d’une liste de tuples. 
+#Si aucun couple n’est trouvé, la fonction retourne une liste vide.
 
 #Exercice 10 : Ecrire une fonction qui construit une liste en prenant alternativiement les valeurs de deux listes L1 et L2 (de taille identique).
 
