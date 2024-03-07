@@ -40,7 +40,9 @@ def exercice2(L, x) :#valider
 #Exercice 6 : Ecrire une fonction, qui à partir d'une liste L de nombres entiers, 
 #indique s'il existe deux éléments consécutifs dont la somme est égale à 10. La fonction renvoie un booléen.
 
-#Exercice 7 : Ecrire une fonction, qui à partir d'une liste L de nombres entiers relatifs, vérifie qu’en valeur absolue, la somme des éléments des éléments négatifs est inférieure à la somme des éléments positifs. La fonction renvoie True ou False.
+#Exercice 7 : Ecrire une fonction, qui à partir d'une liste L de nombres entiers relatifs, 
+#vérifie qu’en valeur absolue, la somme des éléments des éléments négatifs est inférieure à la somme des éléments positifs. 
+#La fonction renvoie True ou False.
 
 #Exercice 8 : Ecrire une fonction, qui à partir d'une liste L contenant un nombre pair de nombres entiers, permute les éléments deux à deux.
 
