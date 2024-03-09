@@ -65,7 +65,8 @@ def exercice2(L, x) :#valider
 #Exercice 14 : Écrire une fonction, qui à partir d’une liste L de listes, 
 #détermine si le nombre d'éléments de chaque sous liste est identique. La fonction renvoie un booléen.
 
-#Exercice 15 : Écrire une fonction, qui à partir d’une liste L de listes et d'une valeur x, détermine le nombre d'occurences de cette valeur. Proposer deux versions de ce programme l'une avec une gestion des index et une autre sans.
+#Exercice 15 : Écrire une fonction, qui à partir d’une liste L de listes et d'une valeur x, 
+#détermine le nombre d'occurences de cette valeur. Proposer deux versions de ce programme l'une avec une gestion des index et une autre sans.
 
 #Exercice 16 : Écrire une fonction, qui à partir d’une liste L de listes de nombres entiers et d'une valeur x, détermine les couples d'index (ligne , colonne) correspondant aux valeurs de x. Cette fonction renvoie une liste de tuples.
 
