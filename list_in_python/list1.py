@@ -61,7 +61,8 @@ def exercice2(L, x) :#valider
 #Exercice 13 :Écrire une fonction, qui à partir d'une matrice implémentée par une liste de listes, 
 #ajoute 1 à chaque élément pour les lignes paires et retire 1 à chaque élément pour les lignes impaires.
 
-#Exercice 14 : Écrire une fonction, qui à partir d’une liste L de listes, détermine si le nombre d'éléments de chaque sous liste est identique. La fonction renvoie un booléen.
+#Exercice 14 : Écrire une fonction, qui à partir d’une liste L de listes, 
+#détermine si le nombre d'éléments de chaque sous liste est identique. La fonction renvoie un booléen.
 
 #Exercice 15 : Écrire une fonction, qui à partir d’une liste L de listes et d'une valeur x, détermine le nombre d'occurences de cette valeur. Proposer deux versions de ce programme l'une avec une gestion des index et une autre sans.
 
