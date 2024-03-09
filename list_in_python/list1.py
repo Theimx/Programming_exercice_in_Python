@@ -53,7 +53,8 @@ def exercice2(L, x) :#valider
 
 #Exercice 10 : Ecrire une fonction qui construit une liste en prenant alternativiement les valeurs de deux listes L1 et L2 (de taille identique).
 
-#Exercice 11 : Ecire une fonction, qui à partir de deux nombres n et m passés en argument, construit une liste de taille n contenant des sous listes de taille m dont les éléments ont une valeur aléatoire entière comprise entre 1 et 10.
+#Exercice 11 : Ecire une fonction, qui à partir de deux nombres n et m passés en argument, 
+#construit une liste de taille n contenant des sous listes de taille m dont les éléments ont une valeur aléatoire entière comprise entre 1 et 10.
 
 #Exercice 12 : Écrire une fonction, qui à partir d’une liste de listes de nombres entiers, construit une liste ne contenant que le dernier élément de chaque sous liste.
 
