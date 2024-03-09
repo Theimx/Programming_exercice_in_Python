@@ -58,7 +58,8 @@ def exercice2(L, x) :#valider
 
 #Exercice 12 : Écrire une fonction, qui à partir d’une liste de listes de nombres entiers, construit une liste ne contenant que le dernier élément de chaque sous liste.
 
-#Exercice 13 :Écrire une fonction, qui à partir d'une matrice implémentée par une liste de listes, ajoute 1 à chaque élément pour les lignes paires et retire 1 à chaque élément pour les lignes impaires.
+#Exercice 13 :Écrire une fonction, qui à partir d'une matrice implémentée par une liste de listes, 
+#ajoute 1 à chaque élément pour les lignes paires et retire 1 à chaque élément pour les lignes impaires.
 
 #Exercice 14 : Écrire une fonction, qui à partir d’une liste L de listes, détermine si le nombre d'éléments de chaque sous liste est identique. La fonction renvoie un booléen.
 
