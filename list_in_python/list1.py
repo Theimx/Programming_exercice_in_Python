@@ -56,7 +56,8 @@ def exercice2(L, x) :#valider
 #Exercice 11 : Ecire une fonction, qui à partir de deux nombres n et m passés en argument, 
 #construit une liste de taille n contenant des sous listes de taille m dont les éléments ont une valeur aléatoire entière comprise entre 1 et 10.
 
-#Exercice 12 : Écrire une fonction, qui à partir d’une liste de listes de nombres entiers, construit une liste ne contenant que le dernier élément de chaque sous liste.
+#Exercice 12 : Écrire une fonction, qui à partir d’une liste de listes de nombres entiers, 
+#construit une liste ne contenant que le dernier élément de chaque sous liste.
 
 #Exercice 13 :Écrire une fonction, qui à partir d'une matrice implémentée par une liste de listes, 
 #ajoute 1 à chaque élément pour les lignes paires et retire 1 à chaque élément pour les lignes impaires.
