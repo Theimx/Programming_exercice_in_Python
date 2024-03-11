@@ -68,7 +68,8 @@ def exercice2(L, x) :#valider
 #Exercice 15 : Écrire une fonction, qui à partir d’une liste L de listes et d'une valeur x, 
 #détermine le nombre d'occurences de cette valeur. Proposer deux versions de ce programme l'une avec une gestion des index et une autre sans.
 
-#Exercice 16 : Écrire une fonction, qui à partir d’une liste L de listes de nombres entiers et d'une valeur x, détermine les couples d'index (ligne , colonne) correspondant aux valeurs de x. Cette fonction renvoie une liste de tuples.
+#Exercice 16 : Écrire une fonction, qui à partir d’une liste L de listes de nombres entiers et d'une valeur x, 
+#détermine les couples d'index (ligne , colonne) correspondant aux valeurs de x. Cette fonction renvoie une liste de tuples.
 
 #Exercice 17 : Ecrire une fonction, qui à partir d’une liste de listes L de nombres entiers, détermine la valeur maximum ainsi que le couple d'index de ce maximum. Cette fonction renvoie un tuple composé du maximum et d'un tuple contenant le couple d'index. (il est interdit d’utiliser la fonction max(liste) de python).
 
