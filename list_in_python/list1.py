@@ -76,7 +76,8 @@ def exercice2(L, x) :#valider
 #Cette fonction renvoie un tuple composé du maximum et d'un tuple contenant le couple d'index. 
 #(il est interdit d’utiliser la fonction max(liste) de python).
 
-#Exercice 18 : Ecrire une fonction, qui à partir d’une liste de listes L de nombres entiers, détermine la somme des maximums des différentes sous listes (il est interdit d’utiliser la fonction max(liste) de python).
+#Exercice 18 : Ecrire une fonction, qui à partir d’une liste de listes L de nombres entiers, 
+#détermine la somme des maximums des différentes sous listes (il est interdit d’utiliser la fonction max(liste) de python).
 
 #Exercice 19 : Écrire une fonction, qui à partir d’une liste L de listes L de nombres entiers, détermine le maximum de chaque sous liste et l'ajoute à la fin chaque sous liste. Proposer deux versions de ce programme l'une avec une gestion des index et une autre sans.
 
