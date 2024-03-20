@@ -43,19 +43,6 @@ def exercice2(L):
 #décale les éléments de cette liste d'un élément vers la droite (décalage circulaire, 
 #le dernier élément se retrouve alors en premier)
 
-def exercice3(L,x):
-    result = ""
-    count = 1
-    for i in L:
-        if i == x:
-            result = L.index(x)
-            
-    for i in L:
-        if result == "":
-            if i == x + count:
-                result = L.index(x)
-
-    return result
 
 #Exercice 4 : Ecrire une fonction, qui à partir d'une liste de nombres entiers, 
 #décale les éléments de cette liste d'un élément vers la gauche (décalage circulaire, 
