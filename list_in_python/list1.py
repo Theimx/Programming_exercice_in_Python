@@ -28,7 +28,21 @@ def exercice2(L, x) :#valider
 #l’index de la dernière occurrence de x. Si la valeur x n’est pas présente dans la liste, 
 #la fonction retourne la valeur de la liste la plus proche de x par excès.
 
-
+def exercice3(L,x):
+    result = "2"
+    count = 0
+    target = x + count
+    contwo = len(L)
+    while target != result:
+        for i in range(x+1):
+            if i == target:
+                result = i 
+                target = result
+        count += 1
+        if count == 100:
+            result = "none"
+            break
+    return result
 
 #Exercice 4 : Ecrire une fonction, qui à partir d'une liste L de nombres entiers et d'un entier x, 
 #détermine l’index de la dernière occurrence de x. Si la valeur x n’est pas présente dans la liste, 
