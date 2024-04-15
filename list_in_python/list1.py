@@ -1,7 +1,7 @@
 #Exercice 1 : Ecrire une fonction, qui à partir d'une liste L de nombres entiers et d'un entier x, 
 #détermine l’index de la première occurrence de x. Si la valeur x n’est pas présente dans la liste, 
 #la fonction retourne la valeur -1.
-
+ 
 def exercice1(L,x): #valider
 
     result = 0
